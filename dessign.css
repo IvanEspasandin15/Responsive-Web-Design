@@ -8,7 +8,7 @@
         border-color: #004063;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
     }
 
@@ -31,12 +31,17 @@
         color: #004063;
     }
 
-    footer ul li img{
-        width: 30px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 10px;
-        border-color: black;
+    footer nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
+    footer nav ul li img{
+        width: 40px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 15px;
+        border-color: black;
     }
 }
